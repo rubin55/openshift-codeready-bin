@@ -1,6 +1,6 @@
 pkgbase = openshift-codeready-bin
 	pkgdesc = CodeReady tools for OpenShift (crc), binary release
-	pkgver = 2.39.0
+	pkgver = 2.40.0
 	pkgrel = 1
 	url = https://www.okd.io/crc
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = openshift-codeready-bin
 	provides = crc
 	conflicts = crc-bin
 	options = !strip
-	source = crc-v2.39.0-linux-amd64.tar.xz::https://developers.redhat.com/content-gateway/file/pub/openshift-v4/clients/crc/2.39.0/crc-linux-amd64.tar.xz
-	sha256sums = 74bc211d930170ee95eec757e9e92368e56c26e6d45314de1084c2de67ccc727
+	source = crc-v2.40.0-linux-amd64.tar.xz::https://developers.redhat.com/content-gateway/file/pub/openshift-v4/clients/crc/2.40.0/crc-linux-amd64.tar.xz
+	sha256sums = df0705123fb86f4a30d34b98830ef676597ef13dcc694b1df175163f8af89c2f
 
 pkgname = openshift-codeready-bin
