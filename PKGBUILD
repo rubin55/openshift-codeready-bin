@@ -1,7 +1,7 @@
 # Maintainer:  Rubin Simons <me@rubin55.org>
 
 pkgname=openshift-codeready-bin
-pkgver=2.48.0
+pkgver=2.49.0
 pkgrel=1
 pkgdesc="CodeReady tools for OpenShift (crc), binary release"
 provides=('crc')
@@ -12,7 +12,7 @@ license=("Apache")
 
 source=("crc-v${pkgver}-linux-amd64.tar.xz::https://developers.redhat.com/content-gateway/file/pub/openshift-v4/clients/crc/${pkgver}/crc-linux-amd64.tar.xz")
 
-sha256sums=('cdb1efd912b8644e11d41f112172e735debccf2b7e8065d3a417d469a1fc1b7c')
+sha256sums=('c74c4872e44d94163ad43ec9859218b2452d2557795f0b157e55f0bff4a34555')
 
 options=("!strip")
 
